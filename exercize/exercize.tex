@@ -1,0 +1,51 @@
+\documentclass{article}
+
+\title{Laramon - A Laravel Practice Project}
+\author{Wesley van Schaijk}
+\date{2024-03-11}
+
+\begin{document}
+
+\maketitle
+
+\paragraph{}
+\textbf{Before starting with this exercize, 
+make sure that sqlite is enabled in your php.ini file.}
+
+\paragraph{}
+Laramon is a website dedicated to building a Pokémon team.
+You have been tasked to add the latest features to this website.
+The current state of the project is accessible through the starter code.
+Finish the website by completing the following tasks:
+
+\paragraph{Base Exercizes - Pokémon CRUD}
+During the base exercize, you are required to make the Pokémon appear on the screen.
+The company that started the website have not created any views, this is all default.
+The only thing you have is some data files.
+Make sure the relations are set up correctly, and all information of the Pokémon are displayed.
+It's up to you to decide what information is displayed in the index, and what in show.
+You do not need CRUD functionality for Types, only Pokémon and Pokémon Types.
+
+\begin{enumerate}
+	\item Finish the migrations for Pokémon types and Pokémon. 
+          An example can be found in Types. You do not have to deal with nullable values.
+          It does include relations.
+    \item Add the fillable components to the models for Pokémon types and Pokémon.
+    \item Finish the seeders for Pokémon types and Pokémon. Use the TypeSeeder as example.
+    \item Make sure that all seeders run.
+    \item Create the CRUD functionality in the controllers, create views accordingly.
+    \item Make the routing for the Pokémon.
+\end{enumerate}
+
+\paragraph{Extra Exercizes}
+
+\begin{enumerate}
+    \item Make a model, migration, and resource controller for Teams.
+    \item Create CRUD functionality for the user to select and save teams of six Pokémon.
+    \item Make view accordingly.
+    \item Make images appear through of Pokémon, instead of just raw data.
+          Hint, you can steal images from pokemondb.net.
+          https://img.pokemondb.net/artwork/avif/bulbasaur.avif
+\end{enumerate}
+
+\end{document}
